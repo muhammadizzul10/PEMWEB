@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+}
+
+input {
+  padding: 8px;
+  width: 80%;
+  margin: 5px;
+}
+
+button {
+  padding: 8px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+#btnSimpan {
+  background: green;
+  color: white;
+}
+
+#btnTema {
+  background: orange;
+  color: white;
+}
+
+/* DARK MODE */
+.dark {
+  background: #222;
+  color: white;
+}
+
+.dark .card {
+  background: #333;
+}

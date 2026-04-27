@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Student Card</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="card">
+      <h2>Student Card</h2>
+
+      <form action="proses.php" method="POST">
+        <input
+          type="text"
+          name="nama"
+          id="inputNama"
+          placeholder="Masukkan nama"
+        />
+        <input
+          type="email"
+          name="email"
+          id="inputEmail"
+          placeholder="Masukkan email"
+        />
+        <br /><br />
+
+        <button type="submit" id="btnSimpan">Simpan</button>
+      </form>
+
+      <button id="btnTema">Ubah Tema</button>
+
+      <p id="pesan"></p>
+      <p id="pesanEmail"></p>
+    </div>
+
+    <script src="logic.js"></script>
+  </body>
+</html>
